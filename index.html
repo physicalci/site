@@ -11,6 +11,9 @@
   h2 { font-size: 1.1rem; margin-top: 2rem; }
   ul { padding-left: 1.2rem; }
   a { color: #1a55c4; }
+  .contact { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; }
+  .contact p { margin: 0; }
+  .btn { background: #1a55c4; color: #fff; text-decoration: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -28,13 +31,15 @@
 </ul>
 
 <h2>Contact</h2>
-<p>
-  Jason Chen<br>
-  <a href="https://calendly.com/physicalci/20min">Book a 20-minute call</a><br>
-  <a href="mailto:jason@physicalci.com">jason@physicalci.com</a><br>
-  <a href="https://www.linkedin.com/in/jasonjschen/">LinkedIn</a><br>
-  Palo Alto, California
-</p>
+<div class="contact">
+  <p>
+    Jason Chen<br>
+    <a href="mailto:jason@physicalci.com">jason@physicalci.com</a><br>
+    <a href="https://www.linkedin.com/in/jasonjschen/">LinkedIn</a><br>
+    Palo Alto, California
+  </p>
+  <a class="btn" href="https://calendly.com/physicalci/20min">Book a 20-minute call</a>
+</div>
 
 </body>
 </html>
